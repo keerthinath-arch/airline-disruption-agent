@@ -1,1 +1,13 @@
-
+{
+  "scenario_id": "ATL_DISRUPTION_001",
+  "risk_score": 0.78,
+  "dominant_driver": "crew constraints",
+  "recommended_action": "Reassign reserve crew to high-priority flights",
+  "confidence": 0.72,
+  "supporting_factors": [
+    "Limited crew availability presents immediate operational constraint",
+    "Moderate weather impact contributes to disruption risk",
+    "Network delays from JFK increase downstream risk"
+  ],
+  "explanation": "The system prioritizes crew constraints as the dominant disruption driver due to high severity and immediate operational impact. Weather and network signals contribute but are secondary."
+}
