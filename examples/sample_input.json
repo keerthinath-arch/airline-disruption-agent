@@ -1,1 +1,23 @@
-
+{
+  "scenario_id": "ATL_DISRUPTION_001",
+  "timestamp": "2026-06-27T10:00:00Z",
+  "location": "ATL",
+  "signals": {
+    "weather": {
+      "condition": "moderate storm",
+      "severity": 0.6
+    },
+    "crew": {
+      "availability": "limited",
+      "severity": 0.8
+    },
+    "aircraft": {
+      "status": "minor delays",
+      "severity": 0.3
+    },
+    "network": {
+      "impact": "incoming delays from JFK",
+      "severity": 0.5
+    }
+  }
+}
