@@ -1,0 +1,7 @@
+scenario_id,airport,weather,crew,aircraft,network,expected_dominant_driver,expected_recommendation
+ATL_001,ATL,moderate storm,limited availability,minor delays,incoming delays from JFK,crew constraints,Reassign reserve crew to high-priority flights
+JFK_002,JFK,severe storm,normal availability,on time,normal operations,weather conditions,Delay departures and adjust routing
+LAX_003,LAX,clear,normal availability,on time,incoming delays from ATL,network propagation,Protect key inbound connections
+MSP_004,MSP,clear,normal availability,maintenance delays,normal operations,aircraft constraints,Swap aircraft if available
+SEA_005,SEA,moderate storm,normal availability,minor delays,incoming delays from LAX,weather conditions,Delay departures and adjust routing
+BOS_006,BOS,clear,limited availability,maintenance delays,incoming delays from JFK,crew constraints,Reassign reserve crew to high-priority flights
